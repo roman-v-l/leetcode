@@ -8,7 +8,7 @@
 
     int climbStairs(int n) {
     
-        std::vector<last_step_count> counts(n);
+        std::vector<last_step_count> counts(n + 1);
             
         counts[1].ones = 1;
         counts[1].twos = 0;
